@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T01:38:08.673Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.3" etag="HspTobCWsC66Zzd5lieK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T01:52:26.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="CikKl1M01usGtbqKWEj6" version="21.2.3" type="github">
   <diagram name="第 1 页" id="hym_TpLf_UjrkJ_JnFpB">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-5" target="PX7Ufld0cqZ38zhbkNnB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-5" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-12" target="PX7Ufld0cqZ38zhbkNnB-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-12" target="PX7Ufld0cqZ38zhbkNnB-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-12" value="获取当前选择的节点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-16" target="PX7Ufld0cqZ38zhbkNnB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-16" value="根据当前节点，获取所有有bu权限的子节点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-20" target="PX7Ufld0cqZ38zhbkNnB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-20" value="获取所有节点id" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-22" target="PX7Ufld0cqZ38zhbkNnB-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-22" value="获取当前登陆人的行政组织权限" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-24" target="PX7Ufld0cqZ38zhbkNnB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-24" value="根据公开范围和是否屏蔽当前部门来组装Filter" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-26" target="PX7Ufld0cqZ38zhbkNnB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-26" value="组装节点过滤Filter，即标准简历人才库多选基础资料in所有有权限节点id" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PX7Ufld0cqZ38zhbkNnB-28" target="PX7Ufld0cqZ38zhbkNnB-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-28" value="条件为且，并组合为最终的Filter" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PX7Ufld0cqZ38zhbkNnB-33" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="860" y="297.5" width="80" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
